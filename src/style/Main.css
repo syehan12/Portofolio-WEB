@@ -1,0 +1,237 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.Main {
+  width: 100%;
+  height: 100%;
+}
+
+.Page{
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #223542;
+}
+
+.linePage{
+  width: 90% ;
+  height: 2000px;
+  position: absolute;
+  z-index: 2;
+}
+
+.Navbar {
+  width: 100%;
+  z-index: 3;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 40px;
+  background-color: #223542;
+  position: fixed;
+} 
+
+.bag1{
+  width: 600px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bag1 h1{
+  width: max-content;
+  height: max-content;
+  font-size: 20px;
+  margin-left: 10px;
+  color : white;
+}
+
+.bag2{
+  width: 600px;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navul{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
+
+.navul li {
+list-style: none;
+margin-right: 50px;
+border-radius: 30px;
+}
+
+.navul li button{
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+}
+
+.navul li:hover{
+  background-color: #4a9d9a;
+}
+
+.active{
+  background-color: #4a9d9a;
+}
+
+
+.dashboard {
+  height: 650px;
+  width: 100%;
+  background-color: #223542;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgDashboard{
+  height: 850px;
+  width: 100%;
+  background-color: #223542;
+}
+
+.box {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titleBox{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.h1Box{
+  width: 50%;
+  height: auto;
+}
+
+
+.titleBox .h1Box h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.titleBox p {
+  height: auto;
+  font-size: 20px;
+  color: white;
+}
+
+.titleBox button {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  background-color: #4a9d9a;
+  color: white;
+  font-size: 15px;
+  cursor:pointer
+}
+
+.titleBox button:hover {
+  background-color: #5ec4c0;
+}
+
+
+.fotoBox{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Foto{
+  width: 430px;
+  height:430px;
+  border: 5px solid #5ec4c0;
+  background-size: cover;
+  background-image: url(../asset/profile.jpg);
+  border-radius:50%;
+}
+
+.bgWebtech{
+  width: 100%;
+  height: 1700px;
+  background-color:#d0b683;
+}
+
+.webTech{
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+
+.titleWt{
+  width: auto;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWt h1 {
+  width: auto; 
+}
+
+.titleWt img {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.contentWt{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.boxcontentWt{
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 30px;
+  background-color: red;
+}
+
